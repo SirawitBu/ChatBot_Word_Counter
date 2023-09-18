@@ -1,0 +1,21 @@
+# ----------------------
+# Flask
+# ----------------------
+Flask
+spacy
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.0/en_core_web_sm-3.4.0.tar.gz
+line-bot-sdk==2.2.1
+pydantic==1.10.2
+aiohttp==3.7.4
+requests
+# ----------------------
+# Testing
+# ----------------------
+mock
+
+
+# ----------------------
+# Production Server
+# ----------------------
+gevent
+gunicorn
